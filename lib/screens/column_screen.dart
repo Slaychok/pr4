@@ -58,7 +58,6 @@ class _ColumnScreenState extends State<ColumnScreen> {
               ],
             ),
           ),
-          // Список задач
           Expanded(
             child: _tasks.isEmpty
                 ? const Center(child: Text('Нет расходов'))
